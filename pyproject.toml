@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "clustering-problem"
+version = "0.1.0"
+description = ""
+authors = ["martins6 <adrielfalcao@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.3"
+numpy = "^1.23.1"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+jupyter = "^1.0.0"
+scikit-learn = "^1.1.1"
+pandarallel = "^1.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
